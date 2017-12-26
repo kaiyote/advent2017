@@ -4,4 +4,5 @@ defmodule Advent2017Test do
 
   doctest Advent2017.Day1, import: true
   doctest Advent2017.Day2, import: true
+  doctest Advent2017.Day3, import: true
 end

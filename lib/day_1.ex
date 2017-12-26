@@ -4,9 +4,27 @@ defmodule Advent2017.Day1 do
 
   ## Examples
 
+      iex> part1 "1122"
+      3
+      iex> part1 "1111"
+      4
+      iex> part1 "1234"
+      0
+      iex> part1 "91212129"
+      9
       iex> part1 Advent2017.Input.day1
       1097
 
+      iex> part2 "1212"
+      6
+      iex> part2 "1221"
+      0
+      iex> part2 "123425"
+      4
+      iex> part2 "123123"
+      12
+      iex> part2 "12131415"
+      4
       iex> part2 Advent2017.Input.day1
       1188
   """

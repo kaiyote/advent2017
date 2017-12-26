@@ -4,9 +4,17 @@ defmodule Advent2017.Day2 do
 
   ## Examples
 
+      iex> part1 "5 1 9 5
+      ...>        7 5 3
+      ...>        2 4 6 8"
+      18
       iex> part1 Advent2017.Input.day2
       36766
 
+      iex> part2 "5 9 2 8
+      ...>        9 4 7 3
+      ...>        3 8 6 5"
+      9
       iex> part2 Advent2017.Input.day2
       261
   """
